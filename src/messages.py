@@ -5,13 +5,12 @@
 """
 
 from google.appengine.api import memcache
-from google.appengine.ext import deferred, webapp, db
+from google.appengine.ext import deferred, webapp
 from google.appengine.ext.webapp import template
 from google.appengine.ext.webapp.util import run_wsgi_app
-
 from models import Message
-import logging
 import os
+
 
 
 class MainPage(webapp.RequestHandler):

@@ -10,4 +10,4 @@ handlers:
   login: admin
   
 - url: /.*
-  script: helloworld.py
+  script: messages.py
